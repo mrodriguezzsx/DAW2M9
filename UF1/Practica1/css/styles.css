@@ -48,13 +48,26 @@ ul li{
 section {
     border: 1px solid brown;
     margin: 15px 15px 15px 0px;
+    align-items: center;
 }
 
 section article{
     border: 1px solid lightcoral;
-    padding: 5px;
+    padding: 10px;
     margin: 1px 1px 10px 1px;
-    align-items: center;
+}
+
+article h2 {
+    border: 1px solid black;
+    margin: 10px;
+    padding: 5px;
+    color: aqua;
+}
+
+article p {
+    border: 1px solid black;
+    margin: 10px;
+    padding: 5px;
 }
 
 div.containerimg img {
